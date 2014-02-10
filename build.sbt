@@ -9,3 +9,5 @@ libraryDependencies ++= Seq(
 )     
 
 play.Project.playScalaSettings
+
+libraryDependencies += "com.stackmob" %% "newman" % "1.3.5"
