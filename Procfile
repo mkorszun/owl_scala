@@ -1,1 +1,1 @@
-web:  play "run $PORT"
+web:  ./target/universal/stage/bin/owl -Dhttp.port=$PORT
